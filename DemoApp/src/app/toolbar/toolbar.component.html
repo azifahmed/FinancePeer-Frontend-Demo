@@ -1,0 +1,11 @@
+<div class="header">
+
+    <div class ='header__logo' >Finance Peer</div>
+    <div class ='header__Icon'>
+        <div class ='login' (click) = navigateUser() *ngIf ='this.auth.isUserLoggedIn()'>Home</div><BR>
+        <div class ='login' (click) = navigateUser()  *ngIf ='this.auth.isUserLoggedIn()'>User</div><BR>
+        <div class ='login' (click) = navigateLogin()  *ngIf ='!this.auth.isUserLoggedIn()'>Login</div>
+        <div class ='login' (click) = navigateLogOff() *ngIf ='this.auth.isUserLoggedIn()' >Log out</div>
+    </div>
+
+</div>

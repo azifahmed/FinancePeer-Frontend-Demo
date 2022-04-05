@@ -1,0 +1,11 @@
+.components {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.value {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
